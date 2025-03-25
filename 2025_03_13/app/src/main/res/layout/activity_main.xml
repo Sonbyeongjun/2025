@@ -19,13 +19,15 @@
 
 
 
+
+
     ]]>
 
     <TextView
         android:id="@+id/textViewRandomNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="12dp"
         android:layout_marginBottom="20dp"
         android:text="난수:"
         android:textSize="18sp"
@@ -36,10 +38,11 @@
         android:id="@+id/buttonGenerateRandom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="235dp"
+        android:layout_marginTop="340dp"
         android:onClick="generateRandomNumber"
         android:text="랜덤 생성"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     app:layout_constraintEnd_toEndOf="parent"
